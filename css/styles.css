@@ -65,7 +65,7 @@ body {
   background-color: lightgray;
   max-width: 1000px;
   margin: 0 auto;
-  background-image: url("/img/WIP2.png");
+  background-image: url("../img/WIP2.png");
   background-position: center;
   background-repeat: repeat-y;
 }
