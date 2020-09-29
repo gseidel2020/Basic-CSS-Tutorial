@@ -1,6 +1,13 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 html {
+  box-sizing: border-box;
   font-size: 100%;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
 }
 
 .new-color {
@@ -12,5 +19,63 @@ h1 {
   color: rgba(0, 0, 225, 0.3);
   color: black;
   color: rgb(0, 0, 225);
-  background-color: white;
+  background-color: lightgray;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin-left: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+  background-color: lightgray;
+}
+a:hover {
+  color: #610422;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+p {
+  font-family: "Courier New", "Courier New", Courier, monospace;
+  font-weight: normal;
+  margin-left: 0.5rem;
+}
+.standard-box {
+  box-sizing: content-box;
+}
+.box {
+  background-color: pink;
+  width: 300px;
+  padding: 30px;
+  border: 20px solid greenyellow;
+  margin: 30px;
+}
+body {
+  background-color: lightgray;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-image: url("/img/WIP2.png");
+  background-position: center;
+  background-repeat: repeat-y;
+}
+.border-box {
+  border-top: 20px solid greenyellow;
+  border-bottom: 40px solid greenyellow;
+  padding: 10px 20px 30px 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  margin: 30px;
 }
